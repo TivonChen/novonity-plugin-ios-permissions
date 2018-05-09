@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="novonity-plugin-ios-permissions" version="1.0.0">
+	<name>Cordova iOS Permissions</name>
+	<description>Experimental plugin to prevent crashes in iOS apps due to missing entries in the plist file.</description>
+	<license>MIT</license>
+	<repo>https://github.com/TivonChen/novonity-plugin-ios-permissions</repo>
+
+	<platform name="ios">
+		<config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+			<string>本应用需要访问此功能来进行拍照</string>
+		</config-file>
+		<config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+			<string>本应用需要访问此功能来进行照片选择</string>
+		</config-file>
+		<config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
+			<string>本应用需要访问此功能来进行录音</string>
+		</config-file>
+	</platform>
+</plugin>
