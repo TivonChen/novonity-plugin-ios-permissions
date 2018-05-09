@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="novonity-plugin-ios-permissions" version="1.0.0">
-	<name>Cordova iOS Permissions</name>
-	<description>Experimental plugin to prevent crashes in iOS apps due to missing entries in the plist file.</description>
-	<license>MIT</license>
-	<repo>https://github.com/TivonChen/novonity-plugin-ios-permissions</repo>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="novonity-plugin-ios-permissions" version="1.0.1">
+    <name>Cordova iOS Permissions</name>
+    <description>Experimental plugin to prevent crashes in iOS apps due to missing entries in the plist file.
+    </description>
+    <license>MIT</license>
+    <repo>https://github.com/TivonChen/novonity-plugin-ios-permissions</repo>
 
-	<platform name="ios">
-		<edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
-      		<string>本应用需要访问此功能来进行拍照</string>
-	    </edit-config>
-	    <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
-	 		<string>本应用需要访问此功能来进行照片选择</string>
-	    </edit-config>
-	    <edit-config target="NSMicrophoneUsageDescription" file="*-Info.plist" mode="merge">
-	   		<string>本应用需要访问此功能来进行录音</string>
-	    </edit-config>
-	</platform>
+    <platform name="ios">
+        <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+            <string>本应用需要访问此功能来进行拍照</string>
+        </edit-config>
+        <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
+            <string>本应用需要访问此功能来进行照片选择</string>
+        </edit-config>
+        <edit-config target="NSMicrophoneUsageDescription" file="*-Info.plist" mode="merge">
+            <string>本应用需要访问此功能来进行录音</string>
+        </edit-config>
+    </platform>
 </plugin>
