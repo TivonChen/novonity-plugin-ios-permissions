@@ -2,6 +2,12 @@
 	"name": "novonity-plugin-ios-permissions",
 	"version": "1.0.0",
 	"description": "Experimental plugin to prevent crashes in iOS apps due to missing entries in the plist file.",
+	"cordova": {
+    "id": "novonity-plugin-ios-permissions",
+    "platforms": [
+      "ios"
+    ]
+  },
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/TivonChen/novonity-plugin-ios-permissions.git"
