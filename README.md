@@ -12,6 +12,6 @@ cordova plugin add https://github.com/TivonChen/novonity-plugin-ios-permissions.
 ```
 
 # Note
-所有的descriptions使用的是中文说明，如果需要请自行修改
+所有的descriptions使用的是中文说明，Cordova 8.0测试有效，如果需要请自行修改
 
 **Please note that this plugin is experimental.**
