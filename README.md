@@ -2,7 +2,6 @@
 This plugin prevents crashes in iOS apps due to missing entries in the plist file.
 
 # Usage
-Include this plugin in your config.xml:
 ```
 cordova plugin add novonity-plugin-ios-permissions
 ```
