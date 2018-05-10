@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="novonity-plugin-ios-permissions" version="1.0.1">
-    <name>Cordova iOS Permissions</name>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="novonity-plugin-ios-permissions" version="1.0.2">
+    <name>Novonity iOS Permissions</name>
     <description>Experimental plugin to prevent crashes in iOS apps due to missing entries in the plist file.
     </description>
     <license>MIT</license>
