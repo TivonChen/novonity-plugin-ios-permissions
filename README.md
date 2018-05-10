@@ -8,7 +8,7 @@ cordova plugin add novonity-plugin-ios-permissions
 ```
 or
 ```
-cordova plugin add https://github.com/TivonChen/novonity-plugin-ios-permissions.git --nofetch
+cordova plugin add https://github.com/TivonChen/novonity-plugin-ios-permissions.git
 ```
 
 # Note
