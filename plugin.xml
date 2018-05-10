@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="novonity-plugin-ios-permissions" version="1.0.1">
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="novonity-plugin-ios-permissions" version="1.0.2">
     <name>Novonity iOS Permissions</name>
     <description>Experimental plugin to prevent crashes in iOS apps due to missing entries in the plist file.
     </description>
@@ -15,6 +15,9 @@
         </edit-config>
         <edit-config target="NSMicrophoneUsageDescription" file="*-Info.plist" mode="merge">
             <string>本应用需要访问此功能来进行录音</string>
+        </edit-config>
+        <edit-config target="CFBundleDevelopmentRegion" file="*-Info.plist" mode="merge">
+            <string>zh_CN</string>
         </edit-config>
     </platform>
 </plugin>
