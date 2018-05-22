@@ -7,17 +7,17 @@
     <repo>https://github.com/TivonChen/novonity-plugin-ios-permissions</repo>
 
     <platform name="ios">
-        <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
-            <string>本应用需要访问此功能来进行拍照</string>
-        </edit-config>
-        <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
-            <string>本应用需要访问此功能来进行照片选择</string>
-        </edit-config>
-        <edit-config target="NSMicrophoneUsageDescription" file="*-Info.plist" mode="merge">
-            <string>本应用需要访问此功能来进行录音</string>
-        </edit-config>
-        <edit-config target="CFBundleDevelopmentRegion" file="*-Info.plist" mode="merge">
-            <string>zh_CN</string>
-        </edit-config>
+      <config-file overwrite="true" parent="NSCameraUsageDescription" target="*-Info.plist">
+        <string>本应用需要访问此功能来进行拍照</string>
+      </config-file>
+      <config-file overwrite="true" parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
+        <string>本应用需要访问此功能来进行照片选择</string>
+      </config-file>
+      <config-file overwrite="true" parent="NSMicrophoneUsageDescription" target="*-Info.plist">
+        <string>本应用需要访问此功能来进行录音</string>
+      </config-file>
+      <config-file overwrite="true" parent="CFBundleDevelopmentRegion" target="*-Info.plist">
+        <string>zh_CN</string>
+      </config-file>
     </platform>
 </plugin>
